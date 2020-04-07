@@ -46,6 +46,8 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
+        self.random_Button.clicked.connect(MainWindow.random_number)
+        self.sort_Button.clicked.connect(MainWindow.sort_number)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
