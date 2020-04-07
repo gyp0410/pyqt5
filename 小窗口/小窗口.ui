@@ -61,40 +61,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>random_Button</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>random_number()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>345</x>
-     <y>521</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>361</x>
-     <y>631</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sort_Button</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>sort_number()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>544</x>
-     <y>525</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>549</x>
-     <y>598</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
  <slots>
   <slot>random_number()</slot>
   <slot>sort_number()</slot>
