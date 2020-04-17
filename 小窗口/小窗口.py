@@ -65,7 +65,8 @@ class Ui_MainWindow(object):
         self.toolBar.addAction(self.actionNew)
 
         self.retranslateUi(MainWindow)
-        self.random_Button.clicked.connect(self.textBrowser.clear)
+        #self.random_Button.clicked.connect(MainWindow.random_number)
+        #self.sort_Button.clicked.connect(MainWindow.sort_number)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

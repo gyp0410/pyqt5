@@ -110,16 +110,32 @@
   <connection>
    <sender>random_Button</sender>
    <signal>clicked()</signal>
-   <receiver>textBrowser</receiver>
-   <slot>clear()</slot>
+   <receiver>MainWindow</receiver>
+   <slot>random_number()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>309</x>
+     <x>280</x>
      <y>521</y>
     </hint>
     <hint type="destinationlabel">
-     <x>305</x>
-     <y>435</y>
+     <x>266</x>
+     <y>610</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sort_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>sort_number()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>654</y>
     </hint>
    </hints>
   </connection>
