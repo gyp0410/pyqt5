@@ -42,7 +42,7 @@ class QLineEditEchoMode(QWidget):
         formLayout.addRow("Password",passwordLineEdit)
         formLayout.addRow("PasswordEchoOnEdit",passwordEchoOnEditLineEdit)
 
-        #placeholdertext  在文本什么都没有输入的时候显示灰色的字体提示
+        #placeholderText  在文本什么都没有输入的时候显示灰色的字体提示
 
         normalLineEdit.setPlaceholderText("Normal")
         noEchoLineEdit.setPlaceholderText("NoEcho")
